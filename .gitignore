@@ -1,0 +1,86 @@
+# Fichiers temporaires
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Fichiers de configuration locale
+.env
+.env.local
+.env.*.local
+.vscode/settings.json
+.idea/
+*.iml
+.project
+.classpath
+
+# Secrets et clés
+secrets/
+*.key
+*.pem
+api-keys.txt
+credentials.json
+.credentials
+
+# Fichiers de cache
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Fichiers de build
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Backups
+*.bak
+*.backup
+backup/
+*.orig
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+
+# Node (si applicable)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python (si applicable)
+venv/
+env/
+ENV/
+.venv
+
+# Fichiers temporaires de test
+test-results/
+coverage/
+.coverage
+
+# Fichiers générés
+*.generated.*
+auto-generated/
