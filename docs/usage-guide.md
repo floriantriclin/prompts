@@ -9,6 +9,11 @@ Ce guide explique comment utiliser efficacement les prompts de cette collection.
 #### 🧠 Architectes Cognitifs
 **Quand l'utiliser** : Vous avez besoin de concevoir des system prompts complexes et robustes pour des agents IA spécialisés.
 
+- **Prompt Architect 1.0** *(ébauche originelle de NEXUS-GENESIS 2.0)* : Co-création de prompts par blocs avec interaction séquentielle
+  - Idéal pour : Comprendre la genèse de NEXUS-GENESIS, créer des prompts simples guidés pas à pas
+  - Complexité : Moyenne (3/5)
+  - Token count : ~2,000
+
 - **NEXUS-GENESIS 2.0** : Framework complet avec ReAct, CoT, ToT, Constitutional AI, Reflexion
   - Idéal pour : Conception d'agents multi-domaines, systèmes d'orchestration
   - Complexité : Élevée (5/5)
@@ -57,6 +62,46 @@ Ce guide explique comment utiliser efficacement les prompts de cette collection.
   - Idéal pour : Utilisation avec TypingMind
   - Complexité : Moyenne (3/5)
   - Token count : ~6,000
+
+- **Coach Dynamo 1.0** : Coach de vie et productivité quotidienne
+  - Idéal pour : Planification journalière, lutte contre la procrastination, time-boxing
+  - Complexité : Moyenne (3/5)
+  - Token count : ~3,000
+
+#### 💼 Career & Coaching
+**Quand l'utiliser** : Vous travaillez sur votre trajectoire professionnelle, une candidature ou la préparation d'entretien.
+
+- **Coach Candidature 1.0** : Expert recrutement pour l'optimisation des candidatures
+  - Idéal pour : Rédaction et adaptation CV, lettre de motivation, email — avant l'entretien
+  - Complexité : Moyenne (3/5)
+  - Token count : ~2,000
+
+- **Career Strategist 1.0** : Expert en stratégie de carrière
+  - Idéal pour : Réorientation, bilan de compétences, choix de trajectoire (SWOT, Ikigai, RIASEC, Schein)
+  - Complexité : Moyenne-Élevée (4/5)
+  - Token count : ~3,000
+
+- **Interview Forge 1.0** : Coach d'entretien de niveau élite
+  - Idéal pour : Préparation intensive d'entretiens RH et Métier, postes cadres
+  - Complexité : Élevée (4/5)
+  - Token count : ~12,000
+  - Spécificités : Analyse CV ↔ JD, réponses STAR personnalisées, simulation différenciée RH/Métier, feedback exigeant
+
+#### ⚙️ Methodology
+**Quand l'utiliser** : Vous implémentez une méthode de développement logiciel assisté par IA.
+
+- **BMAD Strategist 1.0** : Mentor stratégique BMAD V6
+  - Idéal pour : Projets Greenfield/Brownfield suivant la méthode BMAD (Agile AI-Driven Development)
+  - Complexité : Élevée (4/5)
+  - Token count : ~3,000
+
+#### ✍️ Content
+**Quand l'utiliser** : Vous créez du contenu personnel ou professionnel.
+
+- **Ghostwriter Florian 1.0** : Ghostwriter LinkedIn personnel
+  - Idéal pour : Rédaction de posts LinkedIn basés sur le vécu professionnel de Florian Triclin
+  - Complexité : Moyenne (3/5)
+  - Token count : ~5,000
 
 ## 🚀 Étapes d'Utilisation
 
@@ -246,4 +291,4 @@ Pour améliorer votre utilisation des prompts :
 
 ---
 
-**Dernière mise à jour** : 2026-03-02
+**Dernière mise à jour** : 2026-03-03

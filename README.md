@@ -5,6 +5,7 @@ Collection privée de prompts système pour agents IA spécialisés.
 ## 📚 Prompts Disponibles
 
 ### 🧠 Architectes Cognitifs
+- **Prompt Architect 1.0** *(ébauche originelle de NEXUS-GENESIS)* - Co-création de system prompts par blocs, interaction séquentielle guidée
 - **NEXUS-GENESIS 2.0** - Architecte cognitif pour la conception de system prompts industriels avec frameworks avancés (ReAct, CoT, ToT, Constitutional AI, Reflexion)
 
 ### ⚛️ LangGraph Specialists
@@ -19,6 +20,18 @@ Collection privée de prompts système pour agents IA spécialisés.
 ### 🎯 Assistants Généraux
 - **Master Buddy (Gemini)** - Assistant polyvalent optimisé pour Google Gemini
 - **Master Buddy (TypingMind)** - Assistant polyvalent pour TypingMind
+- **Coach Dynamo 1.0** - Coach de vie et productivité quotidienne (planification, time-boxing, anti-procrastination)
+
+### 💼 Career & Coaching
+- **Coach Candidature 1.0** - Expert recrutement pour optimiser CV, lettres de motivation et emails de candidature
+- **Career Strategist 1.0** - Expert en stratégie de carrière (SWOT, Ikigai, RIASEC, Schein) pour orienter sa trajectoire professionnelle
+- **Interview Forge 1.0** - Coach d'entretien professionnel de niveau élite pour postes cadres (méthode STAR, simulation RH/Métier, feedback exigeant)
+
+### ⚙️ Methodology
+- **BMAD Strategist 1.0** - Mentor stratégique pour l'implémentation de la méthode BMAD V6 (Agile AI-Driven Development)
+
+### ✍️ Content
+- **Ghostwriter Florian 1.0** - Ghostwriter LinkedIn personnalisé (publications basées sur le vécu professionnel de Florian Triclin)
 
 ## 🗂️ Structure du Projet
 
@@ -28,7 +41,8 @@ Collection privée de prompts système pour agents IA spécialisés.
 ├── .gitignore                         # Fichiers à ignorer
 ├── LICENSE                            # Licence (usage privé)
 ├── prompts/                           # Dossier des prompts organisés
-│   ├── cognitive-architects/          # Architectes cognitifs
+│   ├── cognitive-architects/          # Architectes cognitifs & prompt engineering
+│   │   ├── prompt-architect-1-0.md    # ébauche originelle de nexus-genesis
 │   │   └── nexus-genesis-2-0.md
 │   ├── langgraph/                     # Spécialisés LangGraph
 │   │   ├── langGraph-architect-pro-1-0.md
@@ -37,9 +51,23 @@ Collection privée de prompts système pour agents IA spécialisés.
 │   │   ├── notion-architect-1-0.md
 │   │   ├── notion-architect-1-1.md
 │   │   └── notion-architect-1-1-complete.md
-│   └── assistants/                    # Assistants généraux
-│       ├── master-buddy-gemini-1-0.md
-│       └── master-buddy-typingmind-1-0.md
+│   ├── assistants/                    # Assistants généraux
+│   │   ├── master-buddy-gemini-1-0.md
+│   │   ├── master-buddy-typingmind-1-0.md
+│   │   └── coach-dynamo-1-0.md
+│   ├── career/                        # Career & Coaching
+│   │   ├── coach-carriere-candidature-1-0.md
+│   │   ├── career-strategist-1-0.md
+│   │   └── interview-forge-1-0.md
+│   ├── methodology/                   # Méthodologies de développement
+│   │   └── bmad-strategist-1-0.md
+│   ├── content/                       # Création de contenu
+│   │   └── ghostwriter-florian-1-0.md
+│   └── canonical/                     # URLs stables pour projets Claude (sans numéro de version)
+│       ├── README.md                  # Liste des URLs raw et workflow de mise à jour
+│       ├── interview-forge.md
+│       ├── nexus-genesis.md
+│       └── ...
 ├── docs/                              # Documentation supplémentaire
 │   ├── usage-guide.md                 # Guide d'utilisation
 │   └── prompt-templates.md            # Templates de prompts
@@ -48,6 +76,21 @@ Collection privée de prompts système pour agents IA spécialisés.
 └── plans/                             # Plans et stratégies
     └── github-repository-setup.md     # Plan de création du dépôt
 ```
+
+## 🔗 URLs Canoniques (projets Claude)
+
+Chaque prompt dispose d'une **URL stable permanente** dans `prompts/canonical/`. Elle ne change pas lors des mises à jour — à utiliser dans vos projets Claude.
+
+Format : `https://raw.githubusercontent.com/floriantriclin/prompts/master/prompts/canonical/{nom}.md`
+
+Exemples :
+```
+interview-forge       → .../canonical/interview-forge.md
+nexus-genesis         → .../canonical/nexus-genesis.md
+career-strategist     → .../canonical/career-strategist.md
+```
+
+Voir [`prompts/canonical/README.md`](prompts/canonical/README.md) pour la liste complète des URLs et le workflow de mise à jour.
 
 ## 🚀 Utilisation Rapide
 
@@ -97,9 +140,9 @@ git push origin feature/nouveau-prompt
 
 ## 📊 Statistiques
 
-- **Total de prompts** : 8
-- **Catégories** : 4 (Cognitive Architects, LangGraph, Notion, Assistants)
-- **Dernière mise à jour** : 2026-03-02
+- **Total de prompts** : 15
+- **Catégories** : 7 (Cognitive Architects, LangGraph, Notion, Assistants, Career & Coaching, Methodology, Content)
+- **Dernière mise à jour** : 2026-03-03
 
 ## 🎯 Prochaines Étapes
 
@@ -123,4 +166,4 @@ Pour toute question ou suggestion, consultez la documentation ou créez une issu
 
 ---
 
-**Dernière mise à jour** : 2026-03-02
+**Dernière mise à jour** : 2026-03-03
